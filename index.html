@@ -1,0 +1,1411 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="«Урок» — короткометражный игровой фильм (2026). История о взрослении, ошибках прошлого и мужестве оставаться собой.">
+  <meta name="theme-color" content="#0F1518">
+  <title>Урок — короткометражный игровой фильм</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+/* Глобальные настройки для GitHub Pages, не зависят от Tilda. */
+:root {
+  --t-headline-font: Georgia, "Times New Roman", serif;
+  --t-text-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+html { scroll-behavior: smooth; }
+html, body { padding: 0; margin: 0; }
+body { background: #0F1518; color: #ECE3D6; overflow-x: hidden; }
+img { max-width: 100%; }
+.vb-h7k__actions .vb-h7k__btn-ghost {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 46px; min-width: 150px; padding: 12px 25px;
+  font-family: var(--t-text-font); font-size: .95rem; font-weight: 500;
+  text-align: center; text-decoration: none; border-radius: 2px;
+  transition: background .2s ease, border-color .2s ease, color .2s ease;
+}
+.vb-h7k__actions .vb-h7k__btn-ghost:hover,
+.vb-h7k__actions .vb-h7k__btn-ghost:focus-visible {
+  background: rgba(236,227,214,.09);
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<section id="vb-h7k" class="vb-h7k" data-section-name="обложка фильма" aria-labelledby="vb-h7k-title" data-vibeblock-unique-section="yes">
+<style>
+.vb-h7k, .vb-h7k * { box-sizing: border-box; }
+.vb-h7k input, .vb-h7k textarea, .vb-h7k select { font: inherit; }
+
+.vb-h7k{
+  --ink:#0F1518;
+  --ink-2:#171F27;
+  --bone:#ECE3D6;
+  --bone-dim:rgba(236,227,214,.78);
+  --amber:#E89B3A;
+  --line:rgba(236,227,214,.18);
+  --head:var(--t-headline-font, Georgia, "Times New Roman", serif);
+  --body:var(--t-text-font, -apple-system, "Segoe UI", Roboto, Arial, sans-serif);
+  position:relative;
+  background:var(--ink);
+  color:var(--bone);
+  font-family:var(--body);
+  scroll-margin-top:64px;
+}
+
+.vb-h7k__bar{
+  position:fixed; top:0; left:0; right:0; z-index:10;
+  display:flex; align-items:center; gap:18px;
+  padding:12px clamp(16px,3vw,40px);
+  background:rgba(15,21,24,.88);
+  -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.vb-h7k__brand{
+  font-family:var(--head); font-size:1rem; letter-spacing:-.01em;
+  color:var(--bone); text-decoration:none; white-space:nowrap; margin-right:auto;
+}
+.vb-h7k__brand span{ color:var(--amber); }
+.vb-h7k__nav{ display:none; align-items:center; gap:clamp(14px,2vw,30px); }
+.vb-h7k__nav a{
+  font-family:var(--body); font-size:.875rem; color:var(--bone-dim);
+  text-decoration:none; padding:6px 0; border-bottom:1px solid transparent;
+  transition:color .3s cubic-bezier(.16,1,.3,1), border-color .3s cubic-bezier(.16,1,.3,1);
+}
+.vb-h7k__nav a:hover, .vb-h7k__nav a:focus-visible{ color:var(--bone); border-bottom-color:var(--amber); }
+
+.vb-h7k__cta{
+  font-family:var(--body); font-size:.875rem;
+  background:transparent; border:1px solid var(--line); color:var(--bone);
+}
+.vb-h7k__cta:hover{ border-color:var(--amber); color:var(--amber); }
+
+.vb-h7k__stage{ position:relative; min-height:min(94vh,900px); display:flex; overflow:hidden; }
+.vb-h7k__bg{
+  position:absolute; inset:0; width:100%; height:100%;
+  object-fit:cover; object-position:50% 50%;
+  filter:saturate(.78) contrast(1.08) brightness(.9);
+}
+.vb-h7k__scrim{
+  position:absolute; inset:0;
+  background:linear-gradient(180deg, rgba(15,21,24,.94) 0%, rgba(15,21,24,.6) 38%, rgba(15,21,24,.86) 74%, rgba(15,21,24,.98) 100%);
+}
+.vb-h7k__grain{
+  position:absolute; inset:0; opacity:.18; pointer-events:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.vb-h7k__inner{
+  position:relative; z-index:2; align-self:flex-end;
+  width:min(1000px, calc(100% - 32px));
+  margin:0 auto;
+  padding:clamp(96px,16vh,170px) 0 clamp(36px,7vh,72px);
+  text-align:center;
+}
+.vb-h7k__kicker{
+  font-family:var(--body); font-size:.8125rem; letter-spacing:.16em; text-transform:uppercase;
+  color:var(--amber); margin:0 0 clamp(16px,3vw,26px);
+}
+.vb-h7k__title{
+  font-family:var(--head); font-weight:600;
+  font-size:clamp(3rem,12vw,8rem); line-height:.94; letter-spacing:-.045em;
+  text-align:center;
+  text-wrap:balance; margin:0 0 clamp(18px,3vw,28px);
+}
+.vb-h7k__logline{
+  font-family:var(--body); font-size:clamp(1.0625rem,2vw,1.3125rem); line-height:1.55;
+  color:var(--bone-dim); max-width:58ch; margin:0 auto clamp(26px,4vw,38px); text-wrap:pretty;
+}
+.vb-h7k__meta{
+  list-style:none; display:flex; flex-wrap:wrap; justify-content:center; gap:8px 0;
+  margin:0 0 clamp(28px,4vw,40px); padding:18px 0;
+  border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+}
+.vb-h7k__meta li{
+  font-family:var(--body); font-size:.875rem; letter-spacing:.04em;
+  color:var(--bone-dim); text-transform:uppercase;
+}
+.vb-h7k__meta li:not(:last-child)::after{ content:"·"; margin:0 14px; color:var(--amber); }
+.vb-h7k__actions{ display:flex; flex-wrap:wrap; justify-content:center; gap:12px; }
+.vb-h7k__btn-primary{ font-family:var(--body); background:var(--amber); border-color:var(--amber); color:#0F1518; }
+.vb-h7k__btn-primary:hover{ background:#f3b061; border-color:#f3b061; color:#0F1518; }
+.vb-h7k__btn-ghost{ font-family:var(--body); background:transparent; border:1px solid var(--line); color:var(--bone); }
+.vb-h7k__btn-ghost:hover{ border-color:var(--bone); color:var(--bone); }
+
+@media (min-width:900px){
+  .vb-h7k__nav{ display:flex; }
+  .vb-h7k__inner{ width:min(1000px, calc(100% - 80px)); }
+}
+@media (max-width:479px){
+  .vb-h7k__meta li{ font-size:.78125rem; }
+  .vb-h7k__meta li:not(:last-child)::after{ margin:0 10px; }
+  .vb-h7k__actions .t-btnflex{ width:100%; }
+}
+@media (prefers-reduced-motion: reduce){
+  .vb-h7k__nav a{ transition:none; }
+}
+</style>
+
+<header class="vb-h7k__bar">
+  <a class="vb-h7k__brand" href="#vb-h7k">Урок<span>.</span></a>
+  <nav class="vb-h7k__nav" aria-label="Разделы страницы">
+    <a href="#vb-q3m">Синопсис</a>
+    <a href="#vb-r9d">Кадры</a>
+    <a href="#vb-w5t">Съёмочная группа</a>
+    <a href="#vb-z4v">Контакты</a>
+  </nav>
+</header>
+
+<div class="vb-h7k__stage">
+  <img class="vb-h7k__bg" src="images/previous/cover.webp" alt="Настольная лампа освещает стопку учебников, рукописи и человека за рабочим столом" fetchpriority="high">
+  <div class="vb-h7k__scrim"></div>
+  <div class="vb-h7k__grain" aria-hidden="true"></div>
+
+  <div class="vb-h7k__inner">
+    <p class="vb-h7k__kicker">Короткометражный игровой фильм · 2026</p>
+    <h1 id="vb-h7k-title" class="vb-h7k__title">Урок</h1>
+    <p class="vb-h7k__logline">Иногда самый важный урок преподаёт тот, от кого меньше всего его ожидаешь.</p>
+
+    <ul class="vb-h7k__meta"><li data-list="bullet">20 минут</li><li data-list="bullet">Россия</li></ul>
+
+    <div class="vb-h7k__actions">
+      <a class="t-btnflex t-btnflex_md vb-h7k__btn-ghost" href="#vb-q3m">
+        <span class="t-btnflex__text">О фильме</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var root = document.getElementById('vb-h7k');
+  if(!root) return;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var links = root.querySelectorAll('a[href^="#"]');
+  Array.prototype.forEach.call(links, function(link){
+    link.addEventListener('click', function(event){
+      var id = link.getAttribute('href');
+      if(!id || id === '#') return;
+      var target = document.querySelector(id);
+      if(!target) return;
+      event.preventDefault();
+      target.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+    });
+  });
+})();
+</script>
+</section>
+
+<section id="vb-q3m" class="vb-q3m" data-section-name="синопсис фильма" aria-labelledby="vb-q3m-title" data-vibeblock-unique-section="yes">
+<style>
+.vb-q3m, .vb-q3m * { box-sizing: border-box; }
+.vb-q3m input, .vb-q3m textarea, .vb-q3m select { font: inherit; }
+
+.vb-q3m{
+  --ink:#ECE3D6;
+  --paper:#0F1518;
+  --dim:rgba(236,227,214,.74);
+  --line:rgba(236,227,214,.18);
+  --amber:#E89B3A;
+  --head:var(--t-headline-font, Georgia, "Times New Roman", serif);
+  --body:var(--t-text-font, -apple-system, "Segoe UI", Roboto, Arial, sans-serif);
+  /* Фотография из этого раздела — на весь фон, как на обложке. */
+  background-color:var(--paper);
+  background-image:
+    linear-gradient(180deg,
+      rgba(15,21,24,.81) 0%,
+      rgba(15,21,24,.68) 38%,
+      rgba(15,21,24,.80) 74%,
+      rgba(15,21,24,.94) 100%),
+    url("images/previous/synopsis-background.webp");
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+  color:var(--ink);
+  font-family:var(--body);
+  padding:clamp(64px,9vw,132px) 0;
+  scroll-margin-top:64px;
+}
+.vb-q3m__wrap{ width:min(1180px, calc(100% - 32px)); margin:0 auto; }
+.vb-q3m__grid{ display:grid; gap:clamp(32px,5vw,64px); }
+.vb-q3m__title{
+  font-family:var(--head); font-weight:600;
+  font-size:clamp(1.9rem,4.4vw,3.3rem); line-height:1.02; letter-spacing:-.03em;
+  text-wrap:balance; margin:0 0 clamp(20px,3vw,30px);
+}
+.vb-q3m__quote{
+  font-family:var(--head); font-weight:400;
+  font-size:clamp(1.3rem,2.6vw,1.85rem); line-height:1.3; letter-spacing:-.02em;
+  margin:0; padding-top:clamp(20px,3vw,28px); border-top:1px solid var(--line);
+  color:var(--ink); text-wrap:pretty;
+}
+.vb-q3m__prose p{
+  font-family:var(--body); font-size:1.0625rem; line-height:1.68;
+  color:var(--dim); max-width:68ch; margin:0 0 1.15em; text-wrap:pretty;
+}
+.vb-q3m__prose p:last-child{ margin-bottom:0; }
+.vb-q3m__prose strong{ color:var(--ink); font-weight:600; }
+.vb-q3m__figure{ margin:clamp(38px,5vw,58px) 0 0; }
+.vb-q3m__img{
+  display:block; width:100%; aspect-ratio:16/9; object-fit:cover;
+  filter:saturate(.82) contrast(1.04);
+}
+.vb-q3m__cap{
+  font-family:var(--body); font-size:.8125rem; letter-spacing:.08em; text-transform:uppercase;
+  color:var(--dim); margin:12px 0 0;
+}
+
+.vb-q3m.is-reveal-ready [data-reveal]{
+  opacity:0; transform:translateY(18px);
+  transition:opacity .8s cubic-bezier(.16,1,.3,1), transform .8s cubic-bezier(.16,1,.3,1);
+}
+.vb-q3m.is-reveal-ready [data-reveal].is-in{ opacity:1; transform:none; }
+.vb-q3m.is-reveal-ready [data-reveal]:nth-child(2){ transition-delay:.08s; }
+
+@media (min-width:960px){
+  .vb-q3m__wrap{ width:min(1180px, calc(100% - 80px)); }
+  .vb-q3m__grid{ grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr); align-items:start; }
+}
+@media (prefers-reduced-motion: reduce){
+  .vb-q3m.is-reveal-ready [data-reveal]{ opacity:1 !important; transform:none !important; transition:none !important; }
+}
+</style>
+
+<div class="vb-q3m__wrap">
+  <div class="vb-q3m__grid">
+    <div data-reveal="">
+      <h2 id="vb-q3m-title" class="vb-q3m__title">О фильме</h2>
+      <blockquote class="vb-q3m__quote"><br></blockquote>
+    </div>
+
+    <div class="vb-q3m__prose" data-reveal="">
+      <p>Когда-то Михаил Сергеевич стоял у школьной доски и объяснял старшеклассникам дроби. Теперь он работает уборщиком в тех же коридорах — после одного поступка, о котором старается не вспоминать. Школа стала местом, куда он возвращается не из любви к детям, а по <strong>инерции и привычке</strong>.</p>
+      <p>Его привычная жизнь ломается, когда поздно ночью в учебном классе он встречает одиннадцатилетнего Илью, который прячет в рюкзаке потрёпанные коньки. Мальчик мечтает о фигурном катании, но дома эту мечту не слышат, а в школе — не принимают. <strong>Он никому не рассказывает о ней вслух и как можно тщательнее её скрывает. </strong></p>
+      <p>«Урок» — история о взрослении, ошибках прошлого и мужестве оставаться собой. О том, как трудно порой произнести вслух то, что важнее всего, — и как одна случайная встреча может изменить две жизни.</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  var root = document.getElementById('vb-q3m');
+  if(!root) return;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduce || !('IntersectionObserver' in window)) return;
+  var items = root.querySelectorAll('[data-reveal]');
+  if(!items.length) return;
+  root.classList.add('is-reveal-ready');
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(entry.isIntersecting){
+        entry.target.classList.add('is-in');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold:0.1, rootMargin:'0px 0px -6% 0px' });
+  Array.prototype.forEach.call(items, function(el){ io.observe(el); });
+})();
+</script>
+</section>
+
+<section id="vb-r9d" class="vb-r9d" data-section-name="кадры из фильма" aria-labelledby="vb-r9d-title" data-vibeblock-unique-section="yes">
+<style>
+.vb-r9d, .vb-r9d * { box-sizing: border-box; }
+.vb-r9d input, .vb-r9d textarea, .vb-r9d select { font: inherit; }
+
+.vb-r9d{
+  --ink:#0F1518;
+  --ink-2:#171F27;
+  --bone:#ECE3D6;
+  --dim:rgba(236,227,214,.7);
+  --line:rgba(236,227,214,.18);
+  --amber:#E89B3A;
+  --head:var(--t-headline-font, Georgia, "Times New Roman", serif);
+  --body:var(--t-text-font, -apple-system, "Segoe UI", Roboto, Arial, sans-serif);
+  background-color:var(--ink);
+  background-image:
+    linear-gradient(180deg, rgba(15,21,24,.83) 0%, rgba(15,21,24,.78) 48%, rgba(15,21,24,.91) 100%),
+    url("images/previous/film-04.webp");
+  background-position:center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:var(--bone);
+  font-family:var(--body);
+  padding:clamp(64px,9vw,132px) 0;
+  scroll-margin-top:64px;
+}
+.vb-r9d__wrap{ width:min(1180px, calc(100% - 32px)); margin:0 auto; }
+.vb-r9d__head{
+  display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between;
+  gap:16px 32px; margin-bottom:clamp(28px,4vw,44px);
+}
+.vb-r9d__title{
+  font-family:var(--head); font-weight:600;
+  font-size:clamp(1.9rem,4.4vw,3.3rem); line-height:1.02; letter-spacing:-.03em;
+  margin:0; text-wrap:balance;
+}
+.vb-r9d__note{
+  font-family:var(--body); font-size:.9375rem; line-height:1.6;
+  color:var(--dim); max-width:42ch; margin:0;
+}
+.vb-r9d__grid{ display:grid; gap:clamp(12px,1.6vw,20px); }
+.vb-r9d__tile{ margin:0; position:relative; overflow:hidden; background:var(--ink-2); }
+.vb-r9d__img{
+  display:block; width:100%; height:100%; object-fit:cover;
+  aspect-ratio:3/2; filter:saturate(.78) contrast(1.06);
+  transition:transform .9s cubic-bezier(.16,1,.3,1), filter .9s cubic-bezier(.16,1,.3,1);
+}
+.vb-r9d__tile:hover .vb-r9d__img{ transform:scale(1.035); filter:saturate(.95) contrast(1.06); }
+.vb-r9d__cap{
+  display:flex; justify-content:space-between; gap:12px;
+  padding:10px 2px 0;
+  font-family:var(--body); font-size:.78125rem; letter-spacing:.08em;
+  text-transform:uppercase; color:var(--dim);
+}
+.vb-r9d__tc{ color:var(--amber); }
+
+.vb-r9d.is-reveal-ready [data-reveal]{
+  opacity:0; transform:translateY(18px);
+  transition:opacity .8s cubic-bezier(.16,1,.3,1), transform .8s cubic-bezier(.16,1,.3,1);
+}
+.vb-r9d.is-reveal-ready [data-reveal].is-in{ opacity:1; transform:none; }
+.vb-r9d.is-reveal-ready [data-reveal]:nth-child(2){ transition-delay:.07s; }
+.vb-r9d.is-reveal-ready [data-reveal]:nth-child(3){ transition-delay:.14s; }
+.vb-r9d.is-reveal-ready [data-reveal]:nth-child(4){ transition-delay:.21s; }
+
+@media (min-width:640px){
+  .vb-r9d__grid{ grid-template-columns:repeat(2, minmax(0,1fr)); }
+}
+@media (min-width:960px){
+  .vb-r9d__wrap{ width:min(1180px, calc(100% - 80px)); }
+  .vb-r9d__grid{ grid-template-columns:repeat(6, minmax(0,1fr)); }
+  .vb-r9d__tile--wide{ grid-column:span 4; }
+  .vb-r9d__tile--narrow{ grid-column:span 2; }
+  .vb-r9d__tile--wide .vb-r9d__img{ aspect-ratio:16/9; }
+}
+@media (prefers-reduced-motion: reduce){
+  .vb-r9d.is-reveal-ready [data-reveal]{ opacity:1 !important; transform:none !important; transition:none !important; }
+  .vb-r9d__img{ transition:none; }
+  .vb-r9d__tile:hover .vb-r9d__img{ transform:none; }
+}
+</style>
+
+<div class="vb-r9d__wrap">
+  <div class="vb-r9d__head">
+    
+    <p class="vb-r9d__note"></p>
+  <h2 id="vb-r9d-title" class="vb-r9d__title">Кадры</h2></div>
+
+  <div class="vb-r9d__grid">
+    <figure class="vb-r9d__tile vb-r9d__tile--wide" data-reveal="">
+      <img class="vb-r9d__img" src="images/previous/film-01.webp" alt="Мальчик на льду в одиночной тренировке, раннее утро" loading="lazy">
+      <figcaption class="vb-r9d__cap"><span>Лёд · утренняя тренировка</span><span class="vb-r9d__tc">00:02:14</span></figcaption>
+    </figure>
+
+    <figure class="vb-r9d__tile vb-r9d__tile--narrow" data-reveal="">
+      <img class="vb-r9d__img" src="images/previous/film-02.webp" alt="Пустой школьный класс, ряды парт у окна" loading="lazy">
+      <figcaption class="vb-r9d__cap"><span>Кабинет 312</span><span class="vb-r9d__tc">00:05:30</span></figcaption>
+    </figure>
+
+    <figure class="vb-r9d__tile vb-r9d__tile--narrow" data-reveal="">
+      <img class="vb-r9d__img" src="images/previous/film-03.webp" alt="Силуэт мальчика у школьного окна" loading="lazy">
+      <figcaption class="vb-r9d__cap"><span>Илья в раздевалке</span><span class="vb-r9d__tc">00:09:48</span></figcaption>
+    </figure>
+
+    <figure class="vb-r9d__tile vb-r9d__tile--wide" data-reveal="">
+      <img class="vb-r9d__img" src="images/previous/film-04.webp" alt="Школьная доска с полустёртыми меловыми записями" loading="lazy">
+      <figcaption class="vb-r9d__cap"><span>Коридор перед первым уроком</span><span class="vb-r9d__tc">00:16:22</span></figcaption>
+    </figure>
+  </div>
+</div>
+
+<script>
+(function(){
+  var root = document.getElementById('vb-r9d');
+  if(!root) return;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduce || !('IntersectionObserver' in window)) return;
+  var items = root.querySelectorAll('[data-reveal]');
+  if(!items.length) return;
+  root.classList.add('is-reveal-ready');
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(entry.isIntersecting){
+        entry.target.classList.add('is-in');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold:0.1, rootMargin:'0px 0px -6% 0px' });
+  Array.prototype.forEach.call(items, function(el){ io.observe(el); });
+})();
+</script>
+</section>
+
+<section id="vb-w5t" class="vb-w5t" data-section-name="съёмочная группа" aria-labelledby="vb-w5t-title" data-vibeblock-unique-section="yes">
+<style>
+.vb-w5t, .vb-w5t * { box-sizing: border-box; }
+.vb-w5t input, .vb-w5t textarea, .vb-w5t select { font: inherit; }
+
+.vb-w5t{
+  --ink:#0F1518;
+  --ink-2:#141B22;
+  --bone:#ECE3D6;
+  --dim:rgba(236,227,214,.72);
+  --line:rgba(236,227,214,.16);
+  --amber:#E89B3A;
+  --head:var(--t-headline-font, Georgia, "Times New Roman", serif);
+  --body:var(--t-text-font, -apple-system, "Segoe UI", Roboto, Arial, sans-serif);
+  background-color:var(--ink-2);
+  background-image:
+    linear-gradient(180deg, rgba(12,17,21,.70) 0%, rgba(12,17,21,.82) 46%, rgba(12,17,21,.90) 100%),
+    url("images/backgrounds/crew-background.jpg");
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+  color:var(--bone);
+  font-family:var(--body);
+  padding:clamp(64px,9vw,132px) 0;
+  scroll-margin-top:64px;
+}
+.vb-w5t__wrap{ width:min(1180px, calc(100% - 32px)); margin:0 auto; }
+.vb-w5t__title{
+  font-family:var(--head); font-weight:600;
+  font-size:clamp(1.9rem,4.4vw,3.3rem); line-height:1.02; letter-spacing:-.03em;
+  margin:0 0 clamp(28px,4vw,48px); text-wrap:balance;
+}
+.vb-w5t__grid{ display:grid; gap:clamp(36px,5vw,64px); }
+.vb-w5t__lead{ margin:0 0 clamp(24px,3vw,34px); }
+
+.vb-w5t__portrait{ margin:0; }
+.vb-w5t__pimg{
+  display:block; width:100%; aspect-ratio:4/5; object-fit:cover;
+  filter:saturate(.75) contrast(1.05);
+}
+.vb-w5t__pcap{
+  font-family:var(--body); font-size:.8125rem; letter-spacing:.08em; text-transform:uppercase;
+  color:var(--dim); margin:12px 0 0;
+}
+.vb-w5t__note{
+  font-family:var(--body); font-size:1rem; line-height:1.7; color:var(--dim);
+  margin:0; max-width:60ch; text-wrap:pretty;
+}
+.vb-w5t__sign{
+  font-family:var(--head); font-size:1.125rem; color:var(--amber);
+  margin:16px 0 0; letter-spacing:-.01em;
+}
+
+.vb-w5t__label{
+  font-family:var(--body); font-size:.8125rem; letter-spacing:.16em; text-transform:uppercase;
+  color:var(--amber); margin:0 0 6px;
+}
+.vb-w5t__crew{ margin:0 0 clamp(30px,4vw,44px); border-top:1px solid var(--line); }
+.vb-w5t__row{
+  display:grid; grid-template-columns:1fr; gap:2px;
+  padding:14px 0; border-bottom:1px solid var(--line);
+}
+.vb-w5t__row dt{
+  font-family:var(--body); font-size:.8125rem; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--dim);
+}
+.vb-w5t__row dd{
+  font-family:var(--head); font-size:clamp(1.0625rem,1.6vw,1.3125rem);
+  letter-spacing:-.015em; color:var(--bone); margin:0;
+}
+
+.vb-w5t__people{
+  margin-top:clamp(40px,5vw,60px);
+  padding-top:clamp(28px,4vw,40px);
+  border-top:1px solid var(--line);
+}
+.vb-w5t__people-block{ margin-bottom:clamp(32px,4vw,48px); }
+.vb-w5t__people-block:last-child{ margin-bottom:0; }
+.vb-w5t__people-label{
+  font-family:var(--body); font-size:.8125rem; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--amber); margin:0 0 clamp(18px,2vw,24px); font-weight:400;
+}
+.vb-w5t__people-grid{
+  display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+  gap:clamp(14px,2vw,24px);
+}
+.vb-w5t__person{ display:flex; flex-direction:column; gap:10px; }
+.vb-w5t__photo-frame{
+  position:relative; width:100%; aspect-ratio:3/4;
+  background:rgba(236,227,214,.04);
+  border:1px dashed rgba(236,227,214,.34);
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  gap:10px; color:rgba(236,227,214,.55);
+  font-family:var(--body); font-size:.6875rem; letter-spacing:.16em;
+  text-transform:uppercase; text-align:center; padding:14px;
+  transition:border-color .3s cubic-bezier(.16,1,.3,1), background-color .3s cubic-bezier(.16,1,.3,1), color .3s cubic-bezier(.16,1,.3,1);
+}
+.vb-w5t__photo-frame:hover, .vb-w5t__photo-frame:focus-visible{
+  border-color:var(--amber); background:rgba(232,155,58,.06); color:var(--amber);
+}
+.vb-w5t__photo-frame svg{ opacity:.7; }
+.vb-w5t__photo-frame--filled{
+  padding:0;
+  overflow:hidden;
+  border:none;
+  background:rgba(236,227,214,.02);
+}
+.vb-w5t__photo{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  filter:saturate(.9) contrast(1.04);
+}
+/* Сместить видимую часть фото вправо, сохранив размер карточек. */
+.vb-w5t__people-block:first-child .vb-w5t__person:nth-child(1) .vb-w5t__photo{
+  object-position:20% center; /* Арина Царегородцева */
+}
+.vb-w5t__people-block:first-child .vb-w5t__person:nth-child(6) .vb-w5t__photo{
+  object-position:10% center; /* Давид Литманович */
+}
+
+.vb-w5t__person-name{
+  font-family:var(--head); font-size:1.0625rem; letter-spacing:-.01em;
+  color:var(--bone); line-height:1.2; margin:0;
+}
+.vb-w5t__person-role{
+  font-family:var(--body); font-size:.75rem; letter-spacing:.08em;
+  text-transform:uppercase; color:var(--dim); margin:0;
+}
+
+.vb-w5t.is-reveal-ready [data-reveal]{
+  opacity:0; transform:translateY(18px);
+  transition:opacity .8s cubic-bezier(.16,1,.3,1), transform .8s cubic-bezier(.16,1,.3,1);
+}
+.vb-w5t.is-reveal-ready [data-reveal].is-in{ opacity:1; transform:none; }
+
+@media (min-width:640px){
+  .vb-w5t__row{ grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr); gap:16px; align-items:baseline; }
+}
+@media (min-width:960px){
+  .vb-w5t__wrap{ width:min(1180px, calc(100% - 80px)); }
+  .vb-w5t__grid{ grid-template-columns:minmax(0,1.05fr) minmax(0,1fr); align-items:start; }
+}
+@media (prefers-reduced-motion: reduce){
+  .vb-w5t.is-reveal-ready [data-reveal]{ opacity:1 !important; transform:none !important; transition:none !important; }
+}
+
+/* Короткая подпись о студенческой команде перед фотографиями. */
+.vb-w5t__note-block{
+  max-width:760px;
+  width:100%;
+  margin:0 auto;
+}
+.vb-w5t__note-block .vb-w5t__note{
+  max-width:none;
+  text-align:center;
+  font-size:clamp(1rem, 1.8vw, 1.25rem);
+  line-height:1.6;
+}
+.vb-w5t__people{
+  margin-top:clamp(28px,4vw,48px);
+  padding-top:clamp(24px,3vw,36px);
+}
+.vb-w5t__people-grid{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:flex-start;
+  gap:clamp(16px,2vw,24px);
+}
+.vb-w5t__person{
+  flex:0 1 calc((100% - 3 * 24px) / 4);
+  min-width:160px;
+  max-width:230px;
+}
+.vb-w5t__people-block--actors .vb-w5t__person{
+  flex:0 1 250px;
+  max-width:280px;
+}
+.vb-w5t__person-affiliation{
+  font-family:var(--body);
+  color:var(--dim);
+  line-height:1.45;
+  font-size:.875rem;
+  margin:0;
+  text-wrap:pretty;
+}
+@media (max-width:479px){
+  .vb-w5t__person{
+    flex-basis:calc((100% - 16px) / 2);
+    min-width:0;
+  }
+  .vb-w5t__people-block--actors .vb-w5t__person{
+    flex-basis:calc((100% - 16px) / 2);
+  }
+}
+</style>
+
+<div class="vb-w5t__wrap">
+  <h2 id="vb-w5t-title" class="vb-w5t__title">Съёмочная группа</h2>
+
+  <div class="vb-w5t__note-block" data-reveal="">
+    <p class="vb-w5t__note">Большая часть съемочной команды - студенты СПБГИКиТ</p>
+  </div>
+
+  <div class="vb-w5t__people" data-reveal="">
+    <div class="vb-w5t__people-block">
+      <p class="vb-w5t__people-label">Команда · фото</p>
+      <div class="vb-w5t__people-grid">
+        <div class="vb-w5t__person">
+          <div class="vb-w5t__photo-frame vb-w5t__photo-frame--filled">
+            <img class="vb-w5t__photo" src="images/team/arina_tsaregorodtseva.jpg" alt="Арина Царегородцева">
+          </div>
+          <p class="vb-w5t__person-name">Арина Царегородцева</p>
+          <p class="vb-w5t__person-role">Режиссёр</p>
+        </div>
+        <div class="vb-w5t__person">
+          <div class="vb-w5t__photo-frame vb-w5t__photo-frame--filled">
+            <img class="vb-w5t__photo" src="images/team/roman_parusimov.jpg" alt="Роман Парусимов">
+          </div>
+          <p class="vb-w5t__person-name">Роман Парусимов</p>
+          <p class="vb-w5t__person-role">Автор сценария</p>
+        </div>
+        <div class="vb-w5t__person">
+          <div class="vb-w5t__photo-frame vb-w5t__photo-frame--filled">
+            <img class="vb-w5t__photo" src="images/team/artem_linkin.jpg" alt="Артем Линкин">
+          </div>
+          <p class="vb-w5t__person-name">Артем Линкин</p>
+          <p class="vb-w5t__person-role">Оператор</p>
+        </div>
+        <div class="vb-w5t__person">
+          <div class="vb-w5t__photo-frame vb-w5t__photo-frame--filled">
+            <img class="vb-w5t__photo" src="images/team/ksenia_ryzhova.jpg" alt="Ксения Рыжова">
+          </div>
+          <p class="vb-w5t__person-name">Ксения Рыжова</p>
+          <p class="vb-w5t__person-role">Продюсер</p>
+        </div>
+        <div class="vb-w5t__person">
+          <div class="vb-w5t__photo-frame vb-w5t__photo-frame--filled">
+            <img class="vb-w5t__photo" src="images/team/polina_churikova.jpg" alt="Полина Чурикова">
+          </div>
+          <p class="vb-w5t__person-name">Полина Чурикова</p>
+          <p class="vb-w5t__person-role">Художник</p>
+        </div>
+        <div class="vb-w5t__person">
+          <div class="vb-w5t__photo-frame vb-w5t__photo-frame--filled">
+            <img class="vb-w5t__photo" src="images/team/david_litmanovich.jpg" alt="Давид Литманович">
+          </div>
+          <p class="vb-w5t__person-name">Давид Литманович</p>
+          <p class="vb-w5t__person-role">Звукорежиссёр</p>
+        </div>
+        <div class="vb-w5t__person">
+          <div class="vb-w5t__photo-frame vb-w5t__photo-frame--filled">
+            <img class="vb-w5t__photo" src="images/team/ulyana_batueva.jpg" alt="Ульяна Батуева">
+          </div>
+          <p class="vb-w5t__person-name">Ульяна Батуева</p>
+          <p class="vb-w5t__person-role">Композитор</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="vb-w5t__people-block vb-w5t__people-block--actors">
+      <p class="vb-w5t__people-label">В ролях · фото</p>
+      <div class="vb-w5t__people-grid">
+        <div class="vb-w5t__person">
+          <div class="vb-w5t__photo-frame vb-w5t__photo-frame--filled">
+            <img class="vb-w5t__photo" src="images/actors/denis_deniskin.jpg" alt="Денис Денискин — Михаил" loading="lazy">
+          </div>
+          <p class="vb-w5t__person-name">Денис Денискин</p>
+          <p class="vb-w5t__person-role">Михаил</p>
+          <p class="vb-w5t__person-affiliation">Артист кукольного театра «Играем сказку»</p>
+        </div>
+        <div class="vb-w5t__person">
+          <div class="vb-w5t__photo-frame vb-w5t__photo-frame--filled">
+            <img class="vb-w5t__photo" src="images/actors/alexander_ivanov.jpg" alt="Александр Иванов — Илья" loading="lazy">
+          </div>
+          <p class="vb-w5t__person-name">Александр Иванов</p>
+          <p class="vb-w5t__person-role">Илья</p>
+          <p class="vb-w5t__person-affiliation">Актёрское агентство «Гала»</p>
+        </div>
+        <div class="vb-w5t__person">
+          <div class="vb-w5t__photo-frame vb-w5t__photo-frame--filled">
+            <img class="vb-w5t__photo" src="images/actors/borislav_seredinsky.jpg" alt="Борислав Серединский — Костя" loading="lazy">
+          </div>
+          <p class="vb-w5t__person-name">Борислав Серединский</p>
+          <p class="vb-w5t__person-role">Костя</p>
+          <p class="vb-w5t__person-affiliation">Театр-студия «Театр-класс»</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var root = document.getElementById('vb-w5t');
+  if(!root) return;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduce || !('IntersectionObserver' in window)) return;
+  var items = root.querySelectorAll('[data-reveal]');
+  if(!items.length) return;
+  root.classList.add('is-reveal-ready');
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(entry.isIntersecting){
+        entry.target.classList.add('is-in');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold:0.1, rootMargin:'0px 0px -6% 0px' });
+  Array.prototype.forEach.call(items, function(el){ io.observe(el); });
+})();
+</script>
+</section>
+
+<section id="vb-k7x" class="vb-k7x" data-section-name="кадры со съёмочной площадки" aria-labelledby="vb-k7x-title" data-vibeblock-unique-section="yes">
+<style>
+.vb-k7x, .vb-k7x * { box-sizing: border-box; }
+.vb-k7x input, .vb-k7x textarea, .vb-k7x select { font: inherit; }
+
+.vb-k7x{
+  --ink:#0F1518;
+  --ink-2:#171F27;
+  --bone:#ECE3D6;
+  --dim:rgba(236,227,214,.72);
+  --line:rgba(236,227,214,.16);
+  --amber:#E89B3A;
+  --head:var(--t-headline-font, Georgia, "Times New Roman", serif);
+  --body:var(--t-text-font, -apple-system, "Segoe UI", Roboto, Arial, sans-serif);
+  background-color:var(--ink);
+  background-image:
+    linear-gradient(180deg, rgba(15,21,24,.85) 0%, rgba(15,21,24,.76) 48%, rgba(15,21,24,.92) 100%),
+    url("images/backstage/backstage-05.jpg");
+  background-position:center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:var(--bone);
+  font-family:var(--body);
+  padding:clamp(64px,9vw,132px) 0;
+  scroll-margin-top:64px;
+}
+.vb-k7x__wrap{ width:min(1180px, calc(100% - 32px)); margin:0 auto; }
+.vb-k7x__head{
+  display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between;
+  gap:16px 32px; margin-bottom:clamp(28px,4vw,44px);
+}
+.vb-k7x__title{
+  font-family:var(--head); font-weight:600;
+  font-size:clamp(1.9rem,4.4vw,3.3rem); line-height:1.02; letter-spacing:-.03em;
+  margin:0; text-wrap:balance;
+}
+.vb-k7x__note{
+  font-family:var(--body); font-size:.9375rem; line-height:1.6;
+  color:var(--dim); max-width:46ch; margin:0 auto; text-align:center; text-wrap:pretty;
+}
+.vb-k7x__grid{ display:grid; gap:clamp(12px,1.6vw,20px); }
+.vb-k7x__tile{ margin:0; overflow:hidden; background:var(--ink-2); }
+.vb-k7x__frame{ overflow:hidden; }
+.vb-k7x__img{
+  display:block; width:100%; aspect-ratio:3/2; object-fit:cover;
+  filter:saturate(.72) contrast(1.06) brightness(.94);
+  transition:transform .9s cubic-bezier(.16,1,.3,1), filter .9s cubic-bezier(.16,1,.3,1);
+}
+.vb-k7x__tile:hover .vb-k7x__img{ transform:scale(1.04); filter:saturate(.92) contrast(1.06) brightness(1); }
+.vb-k7x__cap{
+  display:flex; justify-content:space-between; gap:12px;
+  padding:11px 2px 2px;
+  font-family:var(--body); font-size:.78125rem; letter-spacing:.08em;
+  text-transform:uppercase; color:var(--dim);
+}
+.vb-k7x__tag{ color:var(--amber); white-space:nowrap; }
+
+.vb-k7x.is-reveal-ready [data-reveal]{
+  opacity:0; transform:translateY(18px);
+  transition:opacity .8s cubic-bezier(.16,1,.3,1), transform .8s cubic-bezier(.16,1,.3,1);
+}
+.vb-k7x.is-reveal-ready [data-reveal].is-in{ opacity:1; transform:none; }
+.vb-k7x.is-reveal-ready [data-reveal]:nth-child(2){ transition-delay:.06s; }
+.vb-k7x.is-reveal-ready [data-reveal]:nth-child(3){ transition-delay:.12s; }
+.vb-k7x.is-reveal-ready [data-reveal]:nth-child(4){ transition-delay:.18s; }
+.vb-k7x.is-reveal-ready [data-reveal]:nth-child(5){ transition-delay:.24s; }
+.vb-k7x.is-reveal-ready [data-reveal]:nth-child(6){ transition-delay:.3s; }
+
+@media (min-width:640px){
+  .vb-k7x__grid{ grid-template-columns:repeat(2, minmax(0,1fr)); }
+}
+@media (min-width:960px){
+  .vb-k7x__wrap{ width:min(1180px, calc(100% - 80px)); }
+  .vb-k7x__grid{ grid-template-columns:repeat(6, minmax(0,1fr)); }
+  .vb-k7x__tile--wide{ grid-column:span 4; }
+  .vb-k7x__tile--narrow{ grid-column:span 2; }
+  .vb-k7x__tile--half{ grid-column:span 3; }
+  .vb-k7x__tile--wide .vb-k7x__img{ aspect-ratio:16/9; }
+}
+@media (max-width:479px){
+  .vb-k7x__cap{ flex-direction:column; gap:4px; }
+}
+@media (prefers-reduced-motion: reduce){
+  .vb-k7x.is-reveal-ready [data-reveal]{ opacity:1 !important; transform:none !important; transition:none !important; }
+  .vb-k7x__img{ transition:none; }
+  .vb-k7x__tile:hover .vb-k7x__img{ transform:none; }
+}
+</style>
+
+<div class="vb-k7x__wrap">
+  <div class="vb-k7x__head">
+    <h2 id="vb-k7x-title" class="vb-k7x__title">Кадры со съёмочной площадки</h2>
+    <p class="vb-k7x__note">Школа, колледж, дворы и переулки Санкт-Петербурга - все это было пройдено за пять съемочных дней.</p>
+  </div>
+
+  <div class="vb-k7x__grid">
+    <figure class="vb-k7x__tile" data-reveal="">
+      <div class="vb-k7x__frame">
+        <img class="vb-k7x__img" src="images/backstage/backstage-01.jpg" alt="Съёмочная группа на площадке рядом с камерой" loading="lazy">
+      </div>
+    </figure>
+
+    <figure class="vb-k7x__tile" data-reveal="">
+      <div class="vb-k7x__frame">
+        <img class="vb-k7x__img" src="images/backstage/backstage-02.jpg" alt="Камера на штативе во время съёмочного дня" loading="lazy">
+      </div>
+    </figure>
+
+    <figure class="vb-k7x__tile" data-reveal="">
+      <div class="vb-k7x__frame">
+        <img class="vb-k7x__img" src="images/backstage/backstage-03.jpg" alt="Звукорежиссёр с пикапом записывает диалог" loading="lazy">
+      </div>
+    </figure>
+
+    <figure class="vb-k7x__tile" data-reveal="">
+      <div class="vb-k7x__frame">
+        <img class="vb-k7x__img" src="images/backstage/backstage-04.jpg" alt="Звукорежиссёр с пикапом записывает диалог" loading="lazy">
+      </div>
+    </figure>
+
+    <figure class="vb-k7x__tile" data-reveal="">
+      <div class="vb-k7x__frame">
+        <img class="vb-k7x__img" src="images/backstage/backstage-05.jpg" alt="Световое оборудование на съёмочной площадке" loading="lazy">
+      </div>
+    </figure>
+
+    <figure class="vb-k7x__tile" data-reveal="">
+      <div class="vb-k7x__frame">
+        <img class="vb-k7x__img" src="images/backstage/backstage-06.jpg" alt="Хлопушка перед началом дубля" loading="lazy">
+      </div>
+    </figure>
+
+    <figure class="vb-k7x__tile" data-reveal="">
+      <div class="vb-k7x__frame">
+        <img class="vb-k7x__img" src="images/backstage/backstage-07.jpg" alt="Подготовка сцены в учебном классе перед дублем" loading="lazy">
+      </div>
+    </figure>
+    <figure class="vb-k7x__tile" data-reveal="">
+      <div class="vb-k7x__frame">
+        <img class="vb-k7x__img" src="images/backstage/backstage-08.jpg" alt="Нанесение грима: имитация царапины на руке актёра" loading="lazy">
+      </div>
+    </figure>
+  </div>
+</div>
+
+<script>
+(function(){
+  var root = document.getElementById('vb-k7x');
+  if(!root) return;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduce || !('IntersectionObserver' in window)) return;
+  var items = root.querySelectorAll('[data-reveal]');
+  if(!items.length) return;
+  root.classList.add('is-reveal-ready');
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(entry.isIntersecting){
+        entry.target.classList.add('is-in');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold:0.1, rootMargin:'0px 0px -6% 0px' });
+  Array.prototype.forEach.call(items, function(el){ io.observe(el); });
+})();
+</script>
+</section>
+
+
+
+
+
+
+
+<section id="vb-z4v" class="vb-z4v" data-section-name="контакты" aria-labelledby="vb-z4v-title" data-vibeblock-unique-section="yes">
+<style>
+.vb-z4v, .vb-z4v * { box-sizing: border-box; }
+.vb-z4v {
+  --bone: #ECE3D6;
+  --dim: rgba(236,227,214,.78);
+  --amber: #E89B3A;
+  --head: var(--t-headline-font, Georgia, "Times New Roman", serif);
+  --body: var(--t-text-font, -apple-system, "Segoe UI", Roboto, Arial, sans-serif);
+  background: #0F1518;
+  color: var(--bone);
+  font-family: var(--body);
+  text-align: center;
+  padding: clamp(80px, 11vw, 150px) 20px clamp(88px, 11vw, 148px);
+  scroll-margin-top: 64px;
+}
+.vb-z4v__inner { width: min(100%, 760px); margin: 0 auto; }
+.vb-z4v__title {
+  font-family: var(--head);
+  font-size: clamp(2.1rem, 4.6vw, 3.3rem);
+  font-weight: 600;
+  letter-spacing: -.03em;
+  line-height: 1.08;
+  color: var(--bone);
+  margin: 0 0 24px;
+  text-align: center;
+}
+.vb-z4v__producer {
+  font-family: var(--head);
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  line-height: 1.5;
+  margin: 0;
+  color: var(--bone);
+}
+.vb-z4v__details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  margin: clamp(30px, 4vw, 48px) 0 0;
+}
+.vb-z4v__details button {
+  appearance: none;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  font-family: var(--body);
+  font-size: clamp(1rem, 2.2vw, 1.15rem);
+  line-height: 1.5;
+  color: var(--dim);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  transition: color .2s ease;
+}
+.vb-z4v__details button:hover,
+.vb-z4v__details button:focus-visible { color: var(--amber); }
+.vb-z4v__contact-status {
+  min-height: 1.3em;
+  margin: 5px 0 0;
+  font-size: .8rem;
+  line-height: 1.3;
+  color: var(--amber);
+}
+.vb-z4v__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 32px;
+}
+.vb-z4v__social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border: 1px solid rgba(236,227,214,.42);
+  border-radius: 50%;
+  color: var(--bone);
+  background: rgba(236,227,214,.04);
+  text-decoration: none;
+  transition: border-color .2s ease, background .2s ease, color .2s ease, transform .2s ease;
+}
+.vb-z4v__social a:hover,
+.vb-z4v__social a:focus-visible {
+  border-color: var(--amber);
+  background: rgba(232,155,58,.13);
+  color: var(--amber);
+  transform: translateY(-2px);
+}
+.vb-z4v__social svg { display: block; width: 25px; height: 25px; fill: currentColor; }
+@media (prefers-reduced-motion: reduce) {
+  .vb-z4v__details button, .vb-z4v__social a { transition: none; }
+  .vb-z4v__social a:hover, .vb-z4v__social a:focus-visible { transform: none; }
+}
+</style>
+<div class="vb-z4v__inner">
+  <h2 id="vb-z4v-title" class="vb-z4v__title">Контакты</h2>
+  <p class="vb-z4v__producer">Продюсер — Ксения Рыжова</p>
+  <div class="vb-z4v__details">
+    <button type="button" data-contact-type="phone" data-contact-value="+79678202400" title="На телефоне — позвонить, на компьютере — скопировать номер">+7 967 820 2400</button>
+    <button type="button" data-contact-type="email" data-contact-value="senechka.ksu007@gmail.com" title="На телефоне — написать письмо, на компьютере — скопировать почту">senechka.ksu007@gmail.com</button>
+    <p class="vb-z4v__contact-status" role="status" aria-live="polite"></p>
+  </div>
+  <div class="vb-z4v__social" aria-label="Социальные сети продюсера">
+    <a href="https://vk.ru/eiewoo" target="_blank" rel="noopener noreferrer" aria-label="ВКонтакте — Ксения Рыжова" title="ВКонтакте">
+      <svg viewBox="0 0 24 24" role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+        <path d="M15.07 2H8.93C3.33 2 2 3.33 2 8.93v6.14C2 20.67 3.33 22 8.93 22h6.14c5.6 0 6.93-1.33 6.93-6.93V8.93C22 3.33 20.67 2 15.07 2Zm3.08 14.24h-1.6c-.61 0-.8-.49-1.9-1.59-.96-.92-1.39-1.04-1.63-1.04-.33 0-.43.1-.43.55v1.47c0 .4-.13.63-1.19.63-1.76 0-3.72-1.06-5.09-3.04-2.05-2.88-2.62-5.06-2.62-5.5 0-.24.1-.46.55-.46h1.64c.41 0 .57.18.73.6.8 2.3 2.14 4.32 2.69 4.32.2 0 .3-.1.3-.64V9.13c-.07-1.15-.67-1.25-.67-1.65 0-.2.16-.39.41-.39h2.58c.35 0 .47.18.47.58v3.35c0 .37.16.49.26.49.2 0 .38-.12.76-.5 1.16-1.31 1.99-3.32 1.99-3.32.1-.24.29-.47.7-.47h1.64c.49 0 .6.24.49.59-.21.98-2.19 3.75-2.19 3.75-.17.28-.24.41 0 .72.18.25.76.75 1.15 1.21.7.8 1.24 1.47 1.39 1.93.15.47-.1.7-.55.7Z"/>
+      </svg>
+    </a>
+    <a href="https://t.me/sewuexi" target="_blank" rel="noopener noreferrer" aria-label="Telegram — Ксения Рыжова" title="Telegram">
+      <svg viewBox="0 0 24 24" role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21.7 3.5 2.95 10.73c-1.28.51-1.27 1.22-.23 1.54l4.81 1.5L18.66 6.7c.53-.32 1.01-.15.62.2l-9.02 8.14-.33 4.91c.49 0 .71-.22.98-.49l2.35-2.29 4.89 3.62c.9.5 1.55.24 1.78-.83l3.2-15.1c.33-1.33-.51-1.93-1.43-1.36Z"/>
+      </svg>
+    </a>
+  </div>
+</div>
+<script>
+/* Номер и почта: без перехода к началу страницы в редакторе Tilda.
+   На телефоне запускается звонок / письмо, на ПК значение копируется. */
+(function () {
+  var root = document.getElementById('vb-z4v');
+  if (!root) return;
+  var status = root.querySelector('.vb-z4v__contact-status');
+  var buttons = root.querySelectorAll('[data-contact-type]');
+  var onMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+  function copyText(value) {
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(value);
+    }
+    return new Promise(function (resolve, reject) {
+      var input = document.createElement('textarea');
+      input.value = value;
+      input.setAttribute('readonly', '');
+      input.style.position = 'fixed';
+      input.style.opacity = '0';
+      input.style.left = '-9999px';
+      document.body.appendChild(input);
+      input.select();
+      var success = false;
+      try { success = document.execCommand('copy'); } catch (err) {}
+      document.body.removeChild(input);
+      if (success) resolve();
+      else reject(new Error('Clipboard unavailable'));
+    });
+  }
+
+  Array.prototype.forEach.call(buttons, function (button) {
+    button.addEventListener('click', function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      var type = button.getAttribute('data-contact-type');
+      var value = button.getAttribute('data-contact-value');
+      if (onMobile) {
+        window.location.href = type === 'phone' ? 'tel:' + value : 'mailto:' + value;
+        return;
+      }
+      copyText(value).then(function () {
+        status.textContent = type === 'phone' ? 'Номер телефона скопирован' : 'Адрес почты скопирован';
+      }).catch(function () {
+        status.textContent = 'Не удалось скопировать. Выделите и скопируйте контакт вручную.';
+      });
+    });
+  });
+})();
+</script>
+</section>
+
+<section id="vb-j6s" class="vb-j6s" data-section-name="подвал страницы" aria-labelledby="vb-j6s-title" data-vibeblock-unique-section="yes">
+<style>
+.vb-j6s, .vb-j6s * { box-sizing: border-box; }
+.vb-j6s input, .vb-j6s textarea, .vb-j6s select { font: inherit; }
+
+.vb-j6s{
+  --ink:#080C12;
+  --bone:#ECE3D6;
+  --dim:rgba(236,227,214,.66);
+  --line:rgba(236,227,214,.14);
+  --amber:#E89B3A;
+  --head:var(--t-headline-font, Georgia, "Times New Roman", serif);
+  --body:var(--t-text-font, -apple-system, "Segoe UI", Roboto, Arial, sans-serif);
+  background:var(--ink); color:var(--bone);
+  font-family:var(--body);
+  padding:clamp(48px,6vw,84px) 0 clamp(32px,4vw,52px);
+  border-top:1px solid var(--line);
+  scroll-margin-top:64px;
+}
+.vb-j6s__wrap{ width:min(1180px, calc(100% - 32px)); margin:0 auto; }
+.vb-j6s__top{
+  display:grid; gap:24px; padding-bottom:clamp(28px,4vw,44px);
+  border-bottom:1px solid var(--line);
+}
+.vb-j6s__title{
+  font-family:var(--head); font-weight:600;
+  font-size:clamp(1.6rem,4vw,2.6rem); line-height:1; letter-spacing:-.03em;
+  margin:0;
+}
+.vb-j6s__title span{ color:var(--amber); }
+.vb-j6s__logline{
+  font-family:var(--body); font-size:.9375rem; line-height:1.6;
+  color:var(--dim); margin:10px 0 0; max-width:44ch;
+}
+.vb-j6s__nav{ display:flex; flex-wrap:wrap; gap:10px 24px; align-self:center; }
+.vb-j6s__nav a{
+  font-family:var(--body); font-size:.875rem; color:var(--dim);
+  text-decoration:none; border-bottom:1px solid transparent;
+  transition:color .3s cubic-bezier(.16,1,.3,1), border-color .3s cubic-bezier(.16,1,.3,1);
+}
+.vb-j6s__nav a:hover, .vb-j6s__nav a:focus-visible{ color:var(--bone); border-bottom-color:var(--amber); }
+.vb-j6s__bottom{
+  display:flex; flex-wrap:wrap; gap:8px 28px; justify-content:space-between;
+  padding-top:20px;
+}
+.vb-j6s__bottom p{
+  font-family:var(--body); font-size:.8125rem; letter-spacing:.04em;
+  color:var(--dim); margin:0;
+}
+
+@media (min-width:960px){
+  .vb-j6s__wrap{ width:min(1180px, calc(100% - 80px)); }
+  .vb-j6s__top{ grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:40px; }
+}
+@media (prefers-reduced-motion: reduce){
+  .vb-j6s__nav a{ transition:none; }
+}
+</style>
+
+<div class="vb-j6s__wrap">
+  <div class="vb-j6s__top">
+    <div>
+      <h2 id="vb-j6s-title" class="vb-j6s__title">Урок<span>.</span></h2>
+      <p class="vb-j6s__logline">Короткометражный игровой фильм · 20 минут · Россия, 2026</p>
+    </div>
+    <nav class="vb-j6s__nav" aria-label="Навигация в подвале">
+      <a href="#vb-h7k">Наверх</a>
+      <a href="#vb-q3m">Синопсис</a>
+      <a href="#vb-r9d">Кадры</a>
+      <a href="#vb-w5t">Группа</a>
+    </nav>
+  </div>
+
+  <div class="vb-j6s__bottom">
+    
+    
+  </div>
+</div>
+
+<script>
+(function(){
+  var root = document.getElementById('vb-j6s');
+  if(!root) return;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var links = root.querySelectorAll('a[href^="#"]');
+  Array.prototype.forEach.call(links, function(link){
+    link.addEventListener('click', function(event){
+      var id = link.getAttribute('href');
+      if(!id || id === '#') return;
+      var target = document.querySelector(id);
+      if(!target) return;
+      event.preventDefault();
+      target.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+    });
+  });
+})();
+</script>
+</section><style data-vb-overrides="true">
+#vb-h7k-title {
+    font-family: Georgia, Arial, sans-serif;
+    color: #e2d5c0;
+}
+
+.vb-h7k__kicker {
+    color: #b27529;
+}
+
+.vb-h7k__logline {
+    color: #a7722f;
+}
+
+#vb-r9d-title {
+    color: #b39d7d;
+    font-family: Georgia, Arial, sans-serif;
+}
+
+#vb-q3m {
+    color: #e5dccf;
+}
+
+.vb-h7k__meta {
+    text-align: center;
+}
+
+#vb-q3m-title {
+    font-family: Georgia, Arial, sans-serif;
+}
+
+#vb-k7x-title {
+    font-family: Georgia, Arial, sans-serif;
+}
+
+.vb-q3m__prose > p {
+    font-family: Georgia, Arial, sans-serif;
+}
+
+.vb-r9d__head {
+    text-align: center;
+}
+
+@media (max-width: 479px) {
+    #vb-h7k-title {
+        text-align: center;
+    }
+
+    .vb-h7k__logline {
+        text-align: center;
+    }
+
+    .vb-h7k__kicker {
+        text-align: center;
+    }
+
+    .vb-h7k__meta {
+        text-align: right;
+    }
+
+    .vb-h7k__meta > li {
+        text-align: center;
+    }
+
+    #vb-q3m-title {
+        font-family: var(--t-headline-font);
+        text-align: center;
+    }
+
+    .vb-q3m__prose > p {
+        text-align: center;
+    }
+
+    .vb-q3m__cap {
+        text-align: center;
+    }
+
+    #vb-r9d-title {
+        text-align: center;
+    }
+
+    .vb-r9d__wrap {
+        text-align: center;
+    }
+
+    .vb-r9d__head {
+        text-align: center;
+    }
+
+    #vb-w5t-title {
+        font-family: Georgia, Arial, sans-serif;
+    }
+}
+
+/* Центрирование заголовков разделов на всех экранах */
+.vb-r9d__title,
+.vb-k7x__title {
+    width: 100%;
+    text-align: center;
+}
+.vb-w5t__title {
+    text-align: center;
+}
+
+
+/* Раздел «О фильме»: одинаковая центральная компоновка на компьютере и телефоне */
+.vb-q3m__grid {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+    gap: clamp(24px, 4vw, 40px);
+}
+.vb-q3m__grid > div:first-child {
+    width: 100%;
+}
+.vb-q3m__title {
+    width: 100%;
+    text-align: center;
+}
+.vb-q3m__quote {
+    width: 100%;
+}
+.vb-q3m__prose {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+}
+.vb-q3m__prose p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Галерея со съёмочной площадки: ровная адаптивная сетка, без пустот */
+.vb-k7x .vb-k7x__head {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.vb-k7x .vb-k7x__note {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.vb-k7x .vb-k7x__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    width: min(100%, 1040px);
+    margin-inline: auto;
+    gap: clamp(12px, 2vw, 20px);
+    align-items: start;
+}
+.vb-k7x .vb-k7x__tile {
+    grid-column: auto;
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+}
+.vb-k7x .vb-k7x__frame {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+}
+.vb-k7x .vb-k7x__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+}
+@media (min-width: 700px) {
+    .vb-k7x .vb-k7x__grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    /* Нечётное последнее фото — посередине, а не слева */
+    .vb-k7x .vb-k7x__tile:last-child:nth-child(odd) {
+        grid-column: 1 / -1;
+        width: calc((100% - clamp(12px, 2vw, 20px)) / 2);
+        justify-self: center;
+    }
+}
+
+
+/* Съёмочная группа: одинаковый вертикальный порядок на ПК и телефоне.
+   Заметка режиссёра сверху, затем команда и актёры. */
+.vb-w5t .vb-w5t__grid {
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: clamp(28px, 4vw, 44px);
+}
+.vb-w5t .vb-w5t__grid > div {
+    width: 100%;
+    min-width: 0;
+}
+.vb-w5t .vb-w5t__note {
+    max-width: none;
+}
+/* Должности и имена на ПК также идут друг под другом, как на телефоне. */
+.vb-w5t .vb-w5t__row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+    align-items: start;
+}
+</style>
+</body>
+</html>
